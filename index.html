@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+</head>
+
+<body>
+    <div>
+        <h1>Tip Calculator</h1>
+    </div>
+
+    <div>
+        <form>
+
+            <label for="bill">
+                <p>How much was the bill?</p>
+            </label>
+
+            <p>
+                R$ <input type="number" name="bill" id="bill" placeholder="100,00" required>
+
+            </p>
+
+            <label for="service">
+                <p>How was the service?</p>
+            </label>
+
+            <p>
+
+                <select name="service" id="service">
+
+                    <option disabled selected value="0"> -- Choose an Option -- </option>
+                    <option value="0.3">30% - Amazing</option>
+                    <option value="0.2">20% - Good </option>
+                    <option value="0.15">15% - Decent</option>
+                    <option value="0.1">10% - Bad</option>
+                    <option value="0.5">05% - Terrible</option>
+
+                </select>
+
+            </p>
+
+            <label for="people">
+
+                <p>How many people will split the bill?</p>
+
+            </label>
+
+            <input type="number" id="people" name="people" placeholder="1" required> person/ people.
+
+            <p>
+                <button type="submit">Calculate!</button>
+            </p>
+
+
+
+
+
+        </form>
+    </div>
+</body>
+
+</html>
