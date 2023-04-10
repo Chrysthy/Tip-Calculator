@@ -6,22 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tip Calculator</title>
+
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
+
+    <div id="container">
     <div>
-        <h1>Tip Calculator</h1>
+        <h1 class="title">Tip Calculator</h1>
     </div>
 
     <div>
-        <form>
+        <form class="tipsform">
 
             <label for="bill">
                 <p>How much was the bill?</p>
             </label>
 
             <p>
-                R$ <input type="number" name="bill" id="bill" placeholder="100,00" required>
+                R$ <input type="number" name="bill" id="bill" placeholder="100,00" required class="formInput">
 
             </p>
 
@@ -31,7 +36,7 @@
 
             <p>
 
-                <select name="service" id="service">
+                <select name="service" id="service" class="formSelect">
 
                     <option disabled selected value="0"> -- Choose an Option -- </option>
                     <option value="0.3">30% - Amazing</option>
@@ -50,10 +55,10 @@
 
             </label>
 
-            <input type="number" id="people" name="people" placeholder="1" required> person/ people.
+            <input type="number" id="people" name="people" placeholder="1" required class="formInput"> person/ people.
 
             <p>
-                <button type="submit">Calculate!</button>
+                <button type="submit" class="formSubmit">Calculate!</button>
             </p>
 
 
@@ -62,6 +67,8 @@
 
         </form>
     </div>
+
+</div>
 </body>
 
 </html>
