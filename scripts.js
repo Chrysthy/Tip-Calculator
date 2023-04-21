@@ -6,7 +6,7 @@ function calculateTip(event) {
    let numOfPeople = document.getElementById('people').value;
 
    if(bill == '' | service == 0){
-alert(Please fill out the amounts)
+alert(Please)
 return
 
    }
@@ -23,7 +23,7 @@ else {
 let total = (bill * service) / numOfPeolpe;
 total = total.toFixed(2);
 document.getElementById('tip').innerHTML = total;
-document.getElementById('totalTip')´.style.display = "block";
+document.getElementById('totalTip').style.display = "block";
 }
 
 document.getElementById('totalTitp').style.display = "none";
