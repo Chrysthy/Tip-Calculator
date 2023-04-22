@@ -1,6 +1,6 @@
 <h1> Tip Calculator </h1>
 
-<hr>
+
 
 <div>
 Project using HTML, CSS and JS.
@@ -13,7 +13,10 @@ Project using HTML, CSS and JS.
 
 
 
-
+<br>
+<hr>
+<h2> Suggestions </h2>
+<p> Do you want to add or report an error? Please feel free to do it! 😉 </p>
 
 
 
