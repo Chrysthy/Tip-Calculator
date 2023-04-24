@@ -1,10 +1,10 @@
-<h1> Tip Calculator </h1>
+<h1> Tip Calculator :abacus: </h1>
 
 
 
-<div>
+<p>
 Project using HTML, CSS and JS.
-</div>
+</p>
 
 
 
