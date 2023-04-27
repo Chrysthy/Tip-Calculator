@@ -2,9 +2,9 @@
 
 
 
-<p>
-Project using HTML, CSS and JS.
-</p>
+
+Project using HTML, CSS and JS by [One Bit Code Start](https://start.onebitcode.com/aulas#a2).
+
 
 
 
