@@ -6,7 +6,7 @@ function calculateTip(event) {
     let numOfPeople = document.getElementById('people').Value
 
     if (bill == '' | serviceQuality == 0) {
-        alert("Favor da uma gorjeta mão de vaca!")
+        alert("Chosse one")
         return
     }
 
