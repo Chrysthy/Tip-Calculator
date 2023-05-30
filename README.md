@@ -6,7 +6,7 @@
 Project using HTML, CSS and JS by [One Bit Code Start](https://start.onebitcode.com/aulas#a2).
 
 
-
+[Click Here! - GitHub Pages](https://chrysthy.github.io/Tip-Calculator/)
 
 
 
